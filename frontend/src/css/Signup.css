@@ -1,0 +1,137 @@
+.signup-body{
+    /* background-color: red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.signup-left{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: rebeccapurple; */
+}
+.signup-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    object-fit: fill;
+
+}
+.signup-right img{
+    width: 100%;
+    height: 100%;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    width: 500px;
+    /* margin-bottom: 15vh; */
+    /* background-color: red;   */
+}
+.signup-form input{
+    width: 500px;
+    padding: 2vh ;
+    border-radius: 14px;
+    border: 1px solid grey;
+}
+.signup-form input::placeholder{
+    margin-bottom: 2vh;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+    width: 500px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    padding: 2px 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+  }
+  
+  .password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+  }
+  
+  .password-wrapper span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .password-wrapper span:hover {
+    color: #333;
+  }
+  .signup-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 6vh;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+
+  }
+  .signup-heading span{
+    font-size: 14px;
+    color: #1877f2;
+  }
+  .checkbox{
+    display: flex;
+    height: 2vh;
+    width: 500px;
+    /* background-color: red; */
+    gap: 2vh;
+    align-items: center;
+  }
+  .checkbox input{
+    width: 20px;
+
+  }
+  .checkbox input:checked{
+    color: #000;
+    background-color: #000;
+  }
+  .signup-form button{
+    width: 500px;
+    margin-top: 2vh;
+  }
+  .signup-form button:active{
+    background-color: #1877f2;
+
+  }
