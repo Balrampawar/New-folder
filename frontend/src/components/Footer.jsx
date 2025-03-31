@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-buttons">
           <Link to ="/Login"><button className="btn login">Log in</button></Link>
-          <Link to ="/register"> <button className="btn signup">Sign up free</button></Link>
+          <Link to ="/Signup"> <button className="btn signup">Sign up free</button></Link>
         </div>
 
         <ul className="footer-links">
